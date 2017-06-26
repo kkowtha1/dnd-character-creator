@@ -1,11 +1,11 @@
 # dnd-character-creator
 
 ## TODO:
-Login 
-Stat
+1. Login 
+2. Stat
   - php form
   - javascript validation
-Race 
-Class
-Background
-Character sheet generation
+3. Race 
+4. Class
+5. Background
+6. Character sheet generation
