@@ -1,0 +1,136 @@
+
+<html>
+    <head> 
+        <meta charset="utf-8" /> 
+		<title>Research Form</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<form action = "processRace.php" method="get">
+			
+			<div class = "panel-group">
+				<!-- Dwarf panel-->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" href="#collapse1">Dwarf</a>
+					  </h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<strong>Ability Score Increase:</strong> Your Constitution score increases by 2. </br>
+						<strong>Age:</strong> Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years. </br>
+						<strong>Size:</strong> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium. </br>
+						<strong>Speed:</strong> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor. </br>
+						<strong>Darkvision:</strong> Accustomed to life underground, you have superior vision in dark and dim conditions.
+						You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.
+						You can’t discern color in darkness, only shades of gray. </br>
+						<strong>Dwarven Resilience:</strong> You have advantage on saving throws against poison, and you have resistance against poison damage. </br>
+						<strong>Dwarven Combat Training:</strong> You have proficiency with the battleaxe, handaxe, throwing hammer,
+						and warhammer. </br>
+						<strong>Tool Proficiency:</strong> You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</br>
+						<strong>Stonecunning:</strong> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient
+						in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.<br>
+						<strong>Languages:</strong> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds,
+						and those characteristics spill over into whatever other language a dwarf might speak.
+					  </div>
+						<!-- Hill Dwarf panel-->
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" href="#collapse1inner1">Hill Dwarf</a>
+							</h4>
+						  </div>
+						  <div id="collapse1inner1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty
+								southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting. </br>
+								<strong>Ability Score Increase:</strong>Your Wisdom score increases by 1. </br>
+								<strong>Dwarven Toughness:</strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</br></p>
+								<input type = "submit" name = "hilldwarf" value = "Select Hill Dwarf">
+							</div>
+						  </div>
+					  </div>
+					<!-- Mountain Dwarf panel-->
+					  <div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" href="#collapse1inner2">Mountain Dwarf</a>
+							</h4>
+						  </div>
+						  <div id="collapse1inner2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain.
+								You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun,
+								as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves. </br>
+								<strong>Ability Score Increase:</strong> Your Strength score increases by 2. </br>
+								<strong>Dwarven Armor Training:</strong> You have proficiency with light and medium armor.</br></p>
+								<input type = "submit" name = "mtndwarf" value = "Select Mountain Dwarf">
+							</div>
+						  </div>
+					  </div>
+					</div>
+				</div>
+				
+				<!-- Elf panel-->
+				<div class = "panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" href="#collapse2">Elf</a>
+					  </h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+					  <div class="panel-body">All the Elf info</div>
+					  <!-- High Elf panel-->
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" href="#collapse2inner1"> High Elf</a>
+							</h4>
+						  </div>
+						  <div id="collapse2inner1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>All the high elf info </br></p>
+								<input type = "submit" name = "highelf" value = "Select High Elf">
+							</div>
+						  </div>
+					  </div>
+					<!-- Wood Elf panel-->
+					  <div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" href="#collapse2inner2">Wood Elf</a>
+							</h4>
+						  </div>
+						  <div id="collapse2inner2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>All the wood elf info </br></p>
+								<input type = "submit" name = "woodelf" value = "Select Wood Elf">
+							</div>
+						  </div>
+					  </div>
+					  <!-- Dark Elf panel-->
+					  <div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" href="#collapse2inner3">Dark Elf (Drow)</a>
+							</h4>
+						  </div>
+						  <div id="collapse2inner3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>All the wood elf info </br></p>
+								<input type = "submit" name = "darkelf" value = "Select Dark Elf">
+							</div>
+						  </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+        </form>
+    </body>
+</html>
